@@ -1,0 +1,219 @@
+/* shared */
+.container {padding: 0; width: 95%; max-width: 95%;}
+
+a, a:link, a:visited, a:hover, a:active {text-decoration: none;}
+
+ul li {list-style-type: none;}
+
+.hidden {position: absolute; left: -10000px; top: -10000px;}
+
+.action {color: #0d698d; cursor: pointer; text-decoration: underline;}
+.action-icon {cursor: pointer;}
+
+.ib {display: inline-block;}
+
+.days li:hover, .servings li:hover {background-color: #eee;}
+  .days li:hover a, .servings li:hover a {color: #0d698d;}
+
+.foods li:hover {background-color: #eee; color: #0d698d;}
+
+/* flexbox */
+.justify-flex-start {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-start;}
+
+.justify-flex-end {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;}
+
+.justify-space-between {
+  align-items: flex-end;
+  border-bottom: 1px solid #d1d1d1;
+  display: flex;
+  justify-content: space-between;}
+
+/* material icons */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* spinner */
+#followingBallsG{
+	position:relative;
+	width:250px;
+	height:24px;
+	margin:auto;
+}
+
+.followingBallsG{
+	background-color:rgb(204,204,204);
+	position:absolute;
+	top:0;
+	left:0;
+	width:19px;
+	height:19px;
+	border-radius:10px;
+		-o-border-radius:10px;
+		-ms-border-radius:10px;
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;
+	animation-name:bounce_followingBallsG;
+		-o-animation-name:bounce_followingBallsG;
+		-ms-animation-name:bounce_followingBallsG;
+		-webkit-animation-name:bounce_followingBallsG;
+		-moz-animation-name:bounce_followingBallsG;
+	animation-duration:1.5s;
+		-o-animation-duration:1.5s;
+		-ms-animation-duration:1.5s;
+		-webkit-animation-duration:1.5s;
+		-moz-animation-duration:1.5s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+}
+
+#followingBallsG_1{
+	animation-delay:0s;
+		-o-animation-delay:0s;
+		-ms-animation-delay:0s;
+		-webkit-animation-delay:0s;
+		-moz-animation-delay:0s;
+}
+
+#followingBallsG_2{
+	animation-delay:0.15s;
+		-o-animation-delay:0.15s;
+		-ms-animation-delay:0.15s;
+		-webkit-animation-delay:0.15s;
+		-moz-animation-delay:0.15s;
+}
+
+#followingBallsG_3{
+	animation-delay:0.3s;
+		-o-animation-delay:0.3s;
+		-ms-animation-delay:0.3s;
+		-webkit-animation-delay:0.3s;
+		-moz-animation-delay:0.3s;
+}
+
+#followingBallsG_4{
+	animation-delay:0.45s;
+		-o-animation-delay:0.45s;
+		-ms-animation-delay:0.45s;
+		-webkit-animation-delay:0.45s;
+		-moz-animation-delay:0.45s;
+}
+
+@keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+
+	50%{
+		left:230px;
+		background-color:rgb(255,255,255);
+	}
+
+	100%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+}
+
+@-o-keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+
+	50%{
+		left:230px;
+		background-color:rgb(255,255,255);
+	}
+
+	100%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+}
+
+@-ms-keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+
+	50%{
+		left:230px;
+		background-color:rgb(255,255,255);
+	}
+
+	100%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+}
+
+@-webkit-keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+
+	50%{
+		left:230px;
+		background-color:rgb(255,255,255);
+	}
+
+	100%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+}
+
+@-moz-keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+
+	50%{
+		left:230px;
+		background-color:rgb(255,255,255);
+	}
+
+	100%{
+		left:0px;
+		background-color:rgb(204,204,204);
+	}
+}
+
+/* FoodLog */
+table.food-log th, table.food-log td {padding; 0.5rem; text-align: center;}
+table.food-log td h4, table.food-log th h4 {color: #666; margin-bottom: 0;}
+
+/* StackedLogEntry */
+div.food-log-stacked, div.food-log-stacked-totals {display:none;}
+div.food-log-stacked-totals h4 {color: #666; margin-bottom: 0;}
+
+/* media queries */
+@media (max-width: 600px) {
+  table.food-log {display: none;}
+
+  div.food-log-stacked, div.food-log-stacked-totals {display: block;}
+}
